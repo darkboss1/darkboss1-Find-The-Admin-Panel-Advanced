@@ -13,7 +13,7 @@
 ```bash
 # Clone the repository
 git clone https://github.com/darkboss1/darkboss1-Find-The-Admin-Panel-Advanced.git
-cd Find-The-Admin-Panel
+cd darkboss1-Find-The-Admin-Panel-Advanced
 
 # Install dependencies
 pip install -r requirements.txt
