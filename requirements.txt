@@ -1,0 +1,20 @@
+# darkboss1 Find The Admin Panel - Dependencies
+
+# Standard libraries (commented as they don't require installation)
+# - os, sys, json, time, random, re, ssl, signal, asyncio, argparse, shutil, socket, platform, datetime, urllib, concurrent, pathlib, subprocess, threading, typing, hashlib, string
+
+# Core dependencies (actually used in code)
+# Used for asynchronous HTTP requests in scan_helper.py and scanner.py
+aiohttp>=3.9.1
+# Used for standard HTTP requests in scan_helper.py
+requests>=2.31.0
+# Used for HTML parsing in scan_helper.py
+beautifulsoup4>=4.12.2
+# Used for handling InsecureRequestWarning
+urllib3>=2.1.0
+# Imported in scanner.py for SSL certificate handling
+certifi>=2023.11.17
+# Used extensively in ui.py, menu.py, and scanner.py for terminal formatting
+rich>=13.7.0
+# Used in logging.py for system information
+psutil>=5.9.6
